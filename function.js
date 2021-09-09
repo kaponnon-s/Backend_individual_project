@@ -17,8 +17,6 @@ station.push(new Station(station.length + 1, "Bangkok2", 600, "45/56 road"));
 station.push(new Station(station.length + 1, "Bangkok3", 675, "45/56 road"));
 station.push(new Station(station.length + 1, "Bangkok4", 221, "45/56 road"));
 
-console.log(station);
-
 register = ({ firstname, lastname, address, phone, email, money }) => {
 	return new Promise((resolve, reject) => {
 		if (money >= 500) {
